@@ -1,0 +1,113 @@
+# ==============================================================================
+# EcoCycle Pro - Git Ignore Configuration
+# ==============================================================================
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- Logs, Caches & Local Runtime Data ---
+*.log
+logs/
+error.log
+access.log
+*.cache
+*.tmp
+temp/
+tmp/
+staff_cache.json
+machine_config.json
+camera_config.json
+web/localhost.sql
+.agents/
+scratch/
+
+# --- Database & Docker Volumes ---
+mysql_data/
+.env
+.env.*
+!.env.example
+
+# --- Dependencies ---
+vendor/
+composer.lock
+node_modules/
+package-lock.json
+
+# --- Temporary Test Scripts & Benchmarks ---
+test*
+test_*
+test.*
+patch*.py
+scan_cameras.py
+create_word_docs.py
+preparedStatement.rs
+get-pip.py
+BIRTHDAY.py
+rose.py
+hx711.py
+loadcell+hx711.py
+
+# --- Backup & Monolith Old Files ---
+.git_backup_old/
+*_backup.py
+*_old.py
+*.zip
+Train/backup_original/
+Train/dataset_captured/
+
+# --- Test Captures, Debug Images & Temp Artifacts ---
+bottle_body.jpg
+cam_crop_user.jpg
+cam_full.jpg
+exact_cam_window.jpg
+live_cam_0.jpg
+debug_media_*
+test_base.jpg
+
+# --- Reports, Word Documents & Thesis Drafts ---
+*.docx
+*.pdf
+*.erd
+*_extracted.txt
+หัวข้อการทดสอบ.txt
+icons.txt
+flowchart_hybrid_pipeline.*
+system_workflow_summary.*
+system_architecture_overview.png
+
+# --- Server Uploads ---
+server/uploads/
+server/public/uploads/

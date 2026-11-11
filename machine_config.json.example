@@ -1,0 +1,6 @@
+{
+  "api_url": "http://localhost/server/api",
+  "machine_id": "1001",
+  "serial_number": "0000000",
+  "machine_type": "point"
+}

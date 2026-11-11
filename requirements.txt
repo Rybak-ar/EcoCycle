@@ -1,0 +1,8 @@
+flet==0.85.3
+opencv-python
+ultralytics
+edge-tts
+pyserial
+requests
+numpy
+pygrabber; sys_platform == 'win32'
